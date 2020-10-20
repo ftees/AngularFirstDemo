@@ -1,0 +1,22 @@
+.detail{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12em;
+}
+.left{
+    width: 100%;
+    height: auto;
+}
+.left img{
+    width: 25em;
+    margin-left: 5em;
+}
+.right{
+    height: auto;
+    
+}
+.btn-primary{
+    border-radius: 10px;
+    font-weight: bold;
+}

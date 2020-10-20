@@ -1,0 +1,25 @@
+.logo-div{
+    width: 100%;
+    background-color: #ffffff;
+}
+.logo img{
+    width: 80px;
+}
+.logo{
+    padding-left: 50px;
+}
+.title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Courier Prime', monospace;
+    margin-left: 20px;
+}
+.header{
+    margin: 0;
+    background-color: #21292b;
+}
+.txtSearch{
+    border-radius: 3%;
+    border: 2px solid #ffffff;
+}

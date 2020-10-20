@@ -1,0 +1,102 @@
+.main-left{
+    position: fixed;
+}
+.main-right{
+   position: absolute;
+   left: 30%;
+}
+#product-page{
+    margin-top: 11em;
+}
+.tag{
+    background-color: cyan;
+    border-radius: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #000000;
+}
+.tag:hover{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.color-filter{
+    margin-top: 30px;
+}
+.list-color{
+    display: flex
+}
+.colors{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    border: 1px solid slategrey;
+}
+.colors:hover{
+    transform: scale(1.2);
+}
+.red{
+    background-color: red;
+
+}
+.blue{
+    background-color: blue;
+
+}
+.black{
+    background-color: black;
+
+}
+.white{
+    background-color: #ffffff;
+
+}
+.green{
+    background-color: springgreen;
+
+}
+.card{
+    height: 400px;
+}
+.card img{
+    width: 100%;
+    
+}
+.card-title{
+    width: 120%;
+}
+.card2{
+    margin-top: 20px;
+    float: left;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .pop{
+    visibility: hidden;
+    width: 600px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+   
+  }
+.sort{
+    width: 100%;
+    
+}
+ 
+  

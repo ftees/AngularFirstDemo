@@ -1,0 +1,93 @@
+[
+    {
+    "id": "S01",
+    "name": "Samsung Galaxy S10",
+    "brand": "Samsung",
+    "color": "red",
+    "price": 1230,
+    "description": "Samsung Galaxy S10 và Galaxy S10 Plus chính hãng  là dòng flagship dẫn đầu trong năm 2019. Bởi Samsung sẽ trang bị rất nhiều tính năng cao cấp hàng đầu hiện nay cho sản phẩm của mình. Cùng với đó là phong cách thiết kế mang tính đột phá sẽ tạo ra một trào lưu mới trong tương lai. two-cities",
+    "cre_date": "20/10/2019",
+    "image":"https://www.xtmobile.vn/vnt_upload/product/01_2020/thumbs/600_600_s10_5g_white_900x900_min.jpg"
+    },
+    {
+        "id": "S02",
+        "name": "Samsung Galaxy S10",
+        "brand": "Samsung",
+        "color": "blue",
+        "price": 1230,
+        "description": "Samsung Galaxy S10 và Galaxy S10 Plus chính hãng  là dòng flagship dẫn đầu trong năm 2019. Bởi Samsung sẽ trang bị rất nhiều tính năng cao cấp hàng đầu hiện nay cho sản phẩm của mình. Cùng với đó là phong cách thiết kế mang tính đột phá sẽ tạo ra một trào lưu mới trong tương lai. two-cities",
+        "cre_date": "20/10/2018",
+        "image":"https://www.xtmobile.vn/vnt_upload/product/03_2019/thumbs/600_s10_800x800_1.jpg"
+    },
+    {
+        "id": "S03",
+        "name": "Samsung Note 20",
+        "brand": "Samsung",
+        "color": "blue",
+        "price": 1530,
+        "description": "Điện thoại sở hữu thiết kế khung kim loại chắc chắn, mặt lưng nhựa bóng bẩy, kiểu dáng mạnh mẽ với những góc cạnh vuông vức nhưng vẫn mang lại cảm giác cầm nắm thoải mái.",
+        "cre_date": "20/02/2019",
+        "image":"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQIXiperdsIwgSM_FBX8VEe1_ZJQiA3EVRiFDW_vkcTXuXVySOnIRXX3VTU1_HStaFNaSt0R9RVlQ&usqp=CAc"
+    },
+    {
+        "id": "S04",
+        "name": "Samsung Note 2",
+        "brand": "Samsung",
+        "color": "red",
+        "price": 1530,
+        "description": "Điện thoại sở hữu thiết kế khung kim loại chắc chắn, mặt lưng nhựa bóng bẩy, kiểu dáng mạnh mẽ với những góc cạnh vuông vức nhưng vẫn mang lại cảm giác cầm nắm thoải mái.",
+        "cre_date": "20/02/2019",
+        "image":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR48oLofe9yAKqVFCf5B8VRhiw1xJS3IQgXhmrsm10M-WQgzLlu4f4aXjG4-kdBXGki5YF59iHgd3c&usqp=CAc"
+    },
+    {
+        "id": "I01",
+        "name": "Iphone 11",
+        "brand": "Apple",
+        "color": "white",
+        "price": 2330,
+        "description": "Điểm nổi bật của iPhone 11 2019 đó là bên cạnh hai phiên bản đen và trắng quen thuộc thì máy còn có thêm bốn phiên bản khác đó là tím, vàng, xanh lá, đỏ. Với tất cả các phiên bản, bao gồm cả điện thoại iPhone 12 sắp ra mắt thì Apple đều thiết kế cạnh bên trùng màu với thân máy, tạo nên một thể thống nhất.",
+        "cre_date": "31/10/2019",
+        "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSkhPM3xisdE5ZBztoOmx44RZkhwRKtKFLO8JnxBABcNBDjcfEuKVY6Tzt1TzG0MX0M1tCT2LaYfrM&usqp=CAc"
+    },
+    {
+        "id": "I02",
+        "name": "Iphone 11",
+        "brand": "Apple",
+        "color": "black",
+        "price": 2330,
+        "description": "Điểm nổi bật của iPhone 11 2019 đó là bên cạnh hai phiên bản đen và trắng quen thuộc thì máy còn có thêm bốn phiên bản khác đó là tím, vàng, xanh lá, đỏ. Với tất cả các phiên bản, bao gồm cả điện thoại iPhone 12 sắp ra mắt thì Apple đều thiết kế cạnh bên trùng màu với thân máy, tạo nên một thể thống nhất.",
+        "cre_date": "31/10/2019",
+        "image":"https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg"
+    },
+    {
+        "id": "I03",
+        "name": "Iphone 11",
+        "brand": "Apple",
+        "color": "red",
+        "price": 2330,
+        "description": "Điểm nổi bật của iPhone 11 2019 đó là bên cạnh hai phiên bản đen và trắng quen thuộc thì máy còn có thêm bốn phiên bản khác đó là tím, vàng, xanh lá, đỏ. Với tất cả các phiên bản, bao gồm cả điện thoại iPhone 12 sắp ra mắt thì Apple đều thiết kế cạnh bên trùng màu với thân máy, tạo nên một thể thống nhất.",
+        "cre_date": "31/10/2019",
+        "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRqFhuBmkMKtPsMxszjJggnp7axWxT4SjUIcmGf10It_pia_eWsYIPdFLY6rZ2bAeFdDZ3tqCpYyT8&usqp=CAc"
+    },
+    {
+        "id": "I03",
+        "name": "Iphone 11",
+        "brand": "Apple",
+        "color": "red",
+        "price": 2330,
+        "description": "Điểm nổi bật của iPhone 11 2019 đó là bên cạnh hai phiên bản đen và trắng quen thuộc thì máy còn có thêm bốn phiên bản khác đó là tím, vàng, xanh lá, đỏ. Với tất cả các phiên bản, bao gồm cả điện thoại iPhone 12 sắp ra mắt thì Apple đều thiết kế cạnh bên trùng màu với thân máy, tạo nên một thể thống nhất.",
+        "cre_date": "31/10/2019",
+        "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRqFhuBmkMKtPsMxszjJggnp7axWxT4SjUIcmGf10It_pia_eWsYIPdFLY6rZ2bAeFdDZ3tqCpYyT8&usqp=CAc"
+    },
+    {
+        "id": "I03",
+        "name": "Iphone 11",
+        "brand": "Apple",
+        "color": "red",
+        "price": 2330,
+        "description": "Điểm nổi bật của iPhone 11 2019 đó là bên cạnh hai phiên bản đen và trắng quen thuộc thì máy còn có thêm bốn phiên bản khác đó là tím, vàng, xanh lá, đỏ. Với tất cả các phiên bản, bao gồm cả điện thoại iPhone 12 sắp ra mắt thì Apple đều thiết kế cạnh bên trùng màu với thân máy, tạo nên một thể thống nhất.",
+        "cre_date": "31/10/2019",
+        "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRqFhuBmkMKtPsMxszjJggnp7axWxT4SjUIcmGf10It_pia_eWsYIPdFLY6rZ2bAeFdDZ3tqCpYyT8&usqp=CAc"
+    }
+
+]

@@ -1,1 +1,162 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    width: auto;
+}
+.head{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar a{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 15px;
+}
+#navbar a:after{
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: #ffffff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#navbar a:hover:after{
+    width: 100%;
+    left: 0;
+}
+#carouselExampleIndicators{
+    width: 100vw;
+    padding-top: 140px;
+}
+.home{
+    max-width: 100vw;
+}
+.contain{
+    width: 100%;
+    margin: auto;
+  
+}
+
+.carousel-item img{
+    width: 100%;
+}
+.brand{
+    width: 100%;
+}
+
+.brand-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.brand-item a{
+    display: inline;
+    margin-left: 70px;
+}
+.brand-logo{
+    width: 88px;
+    
+}
+.brand-logo:hover{
+    transform: scale(1.3);
+}
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    font-size: 30px;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+}
+.hr-text:before {
+      content: '';
+      background: linear-gradient(to right, transparent, #8498ed, transparent);
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 100%;
+      height: 1px;
+    }
+ .hr-text:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+      padding: 0 .5em;
+      line-height: 1.5em;
+      color: #818078;
+      background-color: #fcfcfa;
+    
+  }
+  .header{
+      width: 100%;
+  }
+  
+  .txtSearch{
+      height: 35px;
+      border: 1px solid #CED4DA;
+      width: 200px;
+  }
+  .lastest{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+     
+  }
+  .card{
+      margin-left: 30px;
+  }
+  .card img{
+      width: 100%;
+      transition: .5s ease;
+  }
+  .btnView{
+      transition: .5s ease;
+      position: absolute;
+      top: 30%;
+      left: 32%;
+      color: #ffffff;
+      font-weight: bold;
+      width:80px;
+      border: none;
+      border-radius: 10px;
+      background-color: red;
+      opacity: 0;
+
+  }
+  .card-header{
+      color: #ffffff;
+      background: red;
+      width: 40%;
+      font-weight: bold;
+      line-height: 10px;
+      margin-left: 145px;
+     
+  }
+  .card:hover img{
+      opacity: 0.2;
+  }
+  .card:hover .btnView{
+      opacity: 1;
+  }
+  #addCart{
+      font-weight: bold;
+  }
+#addCart:hover{
+    background-color: red;
+}
+.active{
+    color: red;
+}
+.sale{
+    background-color: mediumaquamarine;
+}

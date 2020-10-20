@@ -1,0 +1,72 @@
+<div class="container-fluid row" id="product-page">
+     <div class="main-left col-3">
+        <div class="brand-filter">
+            <h3>Filter by Brand Tag</h3>
+            <hr>
+            <a   href="/product/Apple" class="tag">#Iphone</a>
+            <a  href="/product/Samsung" class="tag">#Samsung</a>
+            <a href="" class="tag">#Nokia</a>
+            <a href="" class="tag">#Oppo</a>
+            <br>
+            <a href="" class="tag">#Xiaomi</a>
+            <a href="" class="tag">#VSmart</a>
+            <a href="" class="tag">#LG</a>
+        </div>
+        <div class="color-filter">
+            <h3>Filter by Color</h3>
+            <hr>
+            <div class="list-color">
+            <a href=""><div  class="colors red"></div></a>
+            <a href=""><div  class="colors blue"></div></a>
+            <a href=""><div  class="colors green"></div></a>
+            <a href=""><div  class="colors white"></div></a>
+            <a href=""><div  class="colors black"></div></a>
+        </div> 
+        </div>
+     </div>
+     <div class="col-1"></div>
+     <div class="main-right col-8">
+         <div class="row">
+         <div class="sort col-3">
+             SortBy:
+             <!-- Example single danger button -->
+        <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Name
+        </button>
+        <div class="dropdown-menu">
+        <a class="dropdown-item" (click)="sortName()">Name</a>
+        <a class="dropdown-item" href="#">Price</a>
+        
+        </div>
+        </div>
+    </div>
+    <pagination-controls (pageChange)="p = $event" class="col-4"></pagination-controls>
+    <div class="search col-4">
+        <input type="text" (change)="search($event)"  placeholder="Search" class="txtSearch">
+        
+      </div>
+         </div>
+         <hr>
+         <div class="product-list" *ngFor="let item of phoneList | searchPipe:searchValue |paginate: { itemsPerPage: 6, currentPage: p }">
+            <div class="card col-3 card2">
+                
+                <img src={{item.image}}>
+                <button class="btnView"><a  routerLink="/detail/{{item.id}}">View</a></button>
+                
+                <div class="card-body">
+                  <h5 class="card-title">{{item.name}}</h5>
+                  <p class="card-text">{{item.price | currency:"$"}}.</p>
+                  <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
+                </div>
+              </div>
+             
+         </div>
+        
+     </div>
+   
+</div>
+<div>
+ <router-outlet></router-outlet>
+
+</div>
