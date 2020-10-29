@@ -49,102 +49,31 @@
     </div>
     <hr class="hr-text" data-content="LASTEST">
      <div class="lastest row">
-      <div class="card col-2">
+      <div class="card col-2 card2" *ngFor="let item of list2">
         <div class="card-header">
           New
         </div>
-        <img src="https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg">
-        <button class="btnView">View</button>
+        <img src={{item.image}}>
+        <button class="btnView"><a routerLink="/detail/{{item.id}}">View</a></button>
         <div class="card-body">
-          <h5 class="card-title">Iphone</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <h5 class="card-title">{{item.name}}</h5>
+          <p class="card-text">{{item.price}}</p>
           <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
         </div>
       </div>
-      <div class="card col-2">
-        <div class="card-header">
-          New
-        </div>
-        <img src="https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg">
-        <button class="btnView">View</button>
-        <div class="card-body">
-          <h5 class="card-title">Iphone</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
-        </div>
-      </div>
-      <div class="card col-2">
-        <div class="card-header">
-          New
-        </div>
-        <img src="https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg">
-        <button class="btnView">View</button>
-        <div class="card-body">
-          <h5 class="card-title">Iphone</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
-        </div>
-      </div>
-      <div class="card col-2">
-        <div class="card-header">
-          New
-        </div>
-        <img src="https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg">
-        <button class="btnView">View</button>
-        <div class="card-body">
-          <h5 class="card-title">Iphone</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
-        </div>
-      </div>
+     
      </div>
      <hr class="hr-text" data-content="Deal of the day">
      <div class="lastest row">
-      <div class="card col-2">
+      <div class="card col-2 card2" *ngFor="let item of list3">
         <div class="card-header sale">
           -20%
         </div>
-        <img src="https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg">
-        <button class="btnView"><a routerLink="/detail/S01">View</a></button>
+        <img src={{item.image}}>
+        <button class="btnView"><a routerLink="/detail/{{item.id}}">View</a></button>
         <div class="card-body">
-          <h5 class="card-title">Iphone</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
-        </div>
-      </div>
-      <div class="card col-2">
-        <div class="card-header">
-          -30%
-        </div>
-        <img src="https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg">
-        <button class="btnView"><a [routerLink]="['product/detail','abc']" >View</a></button>
-        <div class="card-body">
-          <h5 class="card-title">Iphone2</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
-        </div>
-      </div>
-      <div class="card col-2">
-        <div class="card-header">
-          -20%
-        </div>
-        <img src="https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg">
-        <button class="btnView">View</button>
-        <div class="card-body">
-          <h5 class="card-title">Iphone</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
-        </div>
-      </div>
-      <div class="card col-2">
-        <div class="card-header">
-          -40%
-        </div>
-        <img src="https://didongviet.vn/pub/media/catalog/product/i/p/iphone-11-pro-max-64-gb.jpg">
-        <button class="btnView">View</button>
-        <div class="card-body">
-          <h5 class="card-title">Iphone</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <h5 class="card-title">{{item.name}}</h5>
+          <p class="card-text">{{item.price}}</p>
           <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
         </div>
       </div>
