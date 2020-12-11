@@ -9,7 +9,7 @@ export class AppComponent {
   constructor(private router: Router,private ac: ActivatedRoute){
 
   }
-  searchValue:string='';
+  searchValue:string=''; 
   title = 'my-app';
   
   
