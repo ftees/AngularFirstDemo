@@ -110,13 +110,7 @@
       width: 100%;
      
   }
-  .card{
-      margin-left: 30px;
-  }
-  .card img{
-      width: 100%;
-      transition: .5s ease;
-  }
+  
   .btnView{
       transition: .5s ease;
       position: absolute;
@@ -134,7 +128,7 @@
   .card-header{
       color: #ffffff;
       background: red;
-      width: 50%;
+      width: 40%;
       font-weight: bold;
       line-height: 10px;
       margin-left: 145px;

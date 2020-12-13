@@ -6,3 +6,13 @@
 .card-title{
     width: 120%;
 }
+.card{
+    margin-left: 30px;
+    height: 500px;
+}
+.card img{
+    width: 100%;
+    height: 280px;
+    margin-top: 20px;
+    transition: .5s ease;
+}

@@ -1,0 +1,62 @@
+.banner{
+    width: 100%;
+    margin-top: 140px;
+}
+.ourteam{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.ourteam h2{
+    padding-top: 100px;
+    font-size: 44px;
+    font-weight: bold;
+}
+.team-info{
+    margin-top: 50px;
+    display: flex;
+}
+
+.card{
+    margin-left: 80px;
+}
+.contact{
+    width: 100%;
+    margin-top: 100px;
+    height: 500px;
+    background-color: #21292b;
+    text-align: center;
+    color: #ffffff;
+}
+.contact h2{
+   padding-top: 80px;
+}
+.contact-content{
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+.address{
+    width: 50%;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.form-fb{
+    margin-top: 100px;
+}
+button{
+    background-color: #ffffff;
+    width: 100px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 40px;
+    color:#21292b ;
+    font-weight: bold;
+    float: right;
+    margin-top: 10px;
+}
+input{
+    width: 400px;
+    margin-top: 10px;
+    height: 42px;
+}
