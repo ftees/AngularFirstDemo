@@ -9,6 +9,7 @@ import { ProductComponent } from './product/product.component';
 import { DetailComponent } from './detail/detail.component';
 import { SearchPipePipe } from './search-pipe.pipe';
 import {NgxPaginationModule} from 'ngx-pagination';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {NgxPaginationModule} from 'ngx-pagination';
     HomeComponent,
     ProductComponent,
     DetailComponent,
-    SearchPipePipe
+    SearchPipePipe,
+    AboutComponent
    
   ],
   imports: [
