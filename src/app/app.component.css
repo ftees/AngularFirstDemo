@@ -23,3 +23,42 @@
     border-radius: 3%;
     border: 2px solid #ffffff;
 }
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #21292b;
+    height: auto;
+}
+.footer-menu{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px solid #aeb5af;
+}
+.footer-menu a{
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 50px;
+    display: inline;
+   
+}
+.footer-content{
+    width: 80%;
+    padding-top: 80px;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+}
+.social{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.social i{
+    color: #ffffff;
+    font-size: 32px;
+    margin-left: 20px;
+
+}

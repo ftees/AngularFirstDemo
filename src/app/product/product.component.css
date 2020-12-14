@@ -1,9 +1,15 @@
+.contain{
+    width: 100%;
+display: flex;
+}
 .main-left{
-    position: fixed;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 .main-right{
-   position: absolute;
-   left: 30%;
+   width: 70%;
+   margin-left: 200px;
 }
 #product-page{
     margin-top: 11em;
