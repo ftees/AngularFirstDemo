@@ -10,6 +10,7 @@ import { DetailComponent } from './detail/detail.component';
 import { SearchPipePipe } from './search-pipe.pipe';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { AboutComponent } from './about/about.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AboutComponent } from './about/about.component';
     ProductComponent,
     DetailComponent,
     SearchPipePipe,
-    AboutComponent
+    AboutComponent,
+    LoginComponent
    
   ],
   imports: [

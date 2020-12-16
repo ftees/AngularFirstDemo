@@ -5,6 +5,8 @@ import { DetailComponent } from './detail/detail.component';
 import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import {AboutComponent} from './about/about.component';
+import { LoginComponent } from './login/login.component';
+
 const routes: Routes = [
   { path: 'home', component: HomeComponent,pathMatch: 'full' },
   { path: 'detail/:id',component:DetailComponent},
@@ -13,6 +15,7 @@ const routes: Routes = [
   { path: 'detail/:id',component:DetailComponent}
   ] },
   { path: "",redirectTo:"/home" , pathMatch:'full'},
+  {path:"login",component:LoginComponent},
   { path: 'filter/:value', component: ProductComponent}
 ];
 
