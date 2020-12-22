@@ -1,9 +1,9 @@
 <div class="log-form">
     <div class="content login">
         <h2>Login</h2>
-        <input type="text" placeholder="Username" required><br>
+        <input type="text" placeholder="Username" required [(ngModel)] = "username" (change) = "change()"><br>
         <input type="password" placeholder="Password" required><br>
-        <button>Login</button>
+        <a href="/home"><button (click) = "login()">Login</button></a>
     </div>
     <div class="or">
         <p>OR</p>
@@ -15,8 +15,7 @@
         <input type="password" placeholder="Password" required><br>
         <input type="text" placeholder="Phone Number" required><br>
         <input type="text" placeholder="Email" required><br>
-
         <button type="submit">Register</button>
-    </form>
+     </form>
     </div>
 </div>

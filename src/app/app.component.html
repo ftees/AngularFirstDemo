@@ -6,7 +6,8 @@
 <a class="title">Smartphone</a>
 </div>
 <div class="login col-2">
-  <a routerLink="/login"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+  <a routerLink="/login" (click)="remove()"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+  <h2>{{usname}}</h2>
 </div>
   </div>
   <div class="header row">
@@ -17,7 +18,7 @@
         <a class="nav-item nav-link" routerLink="/home" routerLinkActive="active">Home</a>
         <a class="nav-item nav-link" [routerLink] = "['product','all']">All Product</a>
         <a class="nav-item nav-link"  routerLink="/about">About Us</a>
-        <a class="nav-item nav-link" href="#">Cart</a>
+        <a class="nav-item nav-link" routerLink="/cart">Cart</a>
       </div>
     </nav>
   </nav>
@@ -33,7 +34,7 @@
         <a class="nav-item nav-link" [routerLink] = "['product','all']">All Product</a>
         <a class="nav-item nav-link"  routerLink="/about">About Us</a>
         
-        <a class="nav-item nav-link" href="#">Cart</a>
+        <a class="nav-item nav-link"routerLink="/cart">Cart</a>
     </div>
     <div class="footer-content">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

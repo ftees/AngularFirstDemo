@@ -34,7 +34,7 @@
 .footer-menu{
     padding-top: 50px;
     padding-bottom: 10px;
-    width: 50%;
+    width: 40%;
     margin: auto;
     border-bottom: 2px solid #aeb5af;
 }
@@ -42,7 +42,7 @@
     font-size: 26px;
     color: #ffffff;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 20px;
     display: inline;
    
 }

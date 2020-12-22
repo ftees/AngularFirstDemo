@@ -11,6 +11,7 @@ import { SearchPipePipe } from './search-pipe.pipe';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LoginComponent } from './login/login.component';
     DetailComponent,
     SearchPipePipe,
     AboutComponent,
-    LoginComponent
+    LoginComponent,
+    CartComponent
    
   ],
   imports: [
