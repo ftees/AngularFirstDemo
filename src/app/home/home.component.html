@@ -58,7 +58,7 @@
         <div class="card-body">
           <h5 class="card-title">{{item.name}}</h5>
           <p class="card-text">{{item.price}}</p>
-          <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
+          <a id="addCart" (click) = "addCart(item.name, item.brand, item.price, item.image)" class="btn btn-primary">ADD TO CART</a>
         </div>
       </div>
      
@@ -74,7 +74,7 @@
         <div class="card-body">
           <h5 class="card-title">{{item.name}}</h5>
           <p class="card-text">{{item.price}}</p>
-          <a href="#" id="addCart" class="btn btn-primary">ADD TO CART</a>
+          <a id="addCart" (click) ="addCart(item.name, item.brand, item.price, item.image)" class="btn btn-primary">ADD TO CART</a>
         </div>
       </div>
      </div>

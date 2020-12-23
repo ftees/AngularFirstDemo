@@ -10,6 +10,15 @@ interface Phone{
   cre_date:String,
   image:String
 }
+interface Order{
+  id: number,
+  customer: String,
+  product: String,
+  brand: String,
+  quantity: Number,
+  img:  String,
+  price: number
+}
 
 @Component({
   selector: 'app-home',
@@ -20,8 +29,9 @@ export class HomeComponent implements OnInit {
   list:Phone[];
   list2:Phone[] = [];
   list3:Phone[] = [];
+  listOrder:Order[] = [];
   constructor(private service:MyServiceService) {
-
+  
    }
   
   ngOnInit(): void {
@@ -33,6 +43,24 @@ export class HomeComponent implements OnInit {
      for(var k=this.list.length-5;k<this.list.length-1;k++){
        this.list3.push(this.list[k]);
      }
+     console.log(this.listOrder);
+  }
+
+  addCart(name, brand,price,img){
+      var order= {
+      id: Math.floor(Math.random() * 1001),
+      customer: localStorage.getItem("username"),
+      product: name,
+      brand: brand,
+      quantity: 1,
+      img:  img,
+      price: price
+    }
+    console.log(JSON.stringify(order));
+    this.listOrder = JSON.parse(localStorage.getItem("listCart"));
+    this.listOrder.push(order);
+    localStorage.setItem("listCart",JSON.stringify(this.listOrder));
+      
   }
 
 }
